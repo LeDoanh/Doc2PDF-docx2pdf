@@ -1,0 +1,14 @@
+Hướng dẫn sử dụng source
+1. Tạo evn riêng cho source:
+    - Tạo evn ảo (Lần đầu chạy source): 
+        python -m venv doc2pdf
+
+    - Activate evn (Mỗi lần mở source): 
+        doc2pdf\Scripts\activate
+
+    - Install package từ file requirements (Lần đầu chạy source)
+        pip install -r requirements.txt
+
+2. Chạy source:
+    - Chạy terminal or cmd
+    
