@@ -14,6 +14,7 @@ def convertToPdf(PathIn, PathOut):
     if os.path.exists(PathOut):
         os.remove(PathOut)
     
+    # Spire.doc------------------------------------------------------------------------------
     # # Create a Document object
     # document = Document()
     
@@ -24,6 +25,7 @@ def convertToPdf(PathIn, PathOut):
     # document.SaveToFile(PathOut, FileFormat.PDF)
     # document.Close()
     
+    # Docx2Pdf-------------------------------------------------------------------------------
     # Convert the file to PDF using the docx2pdf library (https://pypi.org/project/docx2pdf/)
     # Note: This library requires the use of the Microsoft Word application
     convert(PathIn, PathOut)

@@ -1,4 +1,5 @@
-Hướng dẫn sử dụng source
+Hướng dẫn sử dụng:
+
 1. Tạo evn riêng cho source:
     - Tạo evn ảo (Lần đầu chạy source): 
         python -m venv doc2pdf
@@ -10,5 +11,11 @@ Hướng dẫn sử dụng source
         pip install -r requirements.txt
 
 2. Chạy source:
-    - Chạy terminal or cmd
-    
+    - Lấy đường đẫn file cần convert:
+        PathIn = FileIn.doc / FileIn.docx
+
+    - Chọn đường đẫn file lưu
+        PathOut = FileOut.pdf
+
+    - Chạy lệnh terminal hoặc cmd (Đổi PathIn, PathOut )
+        python doc2pdf.py "PathIn" "PathOut"
