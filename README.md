@@ -1,7 +1,5 @@
 Source test dùng lib docx2pdf để convert word qua pdf.
-Note: 
-  - Cần máy chạy cài microsoft word nên không chạy được trên linux.
-  - Nếu dùng spire.doc thì chỉ convert được file cơ bản không hình và có watermask của lib
+Note: Cần máy chạy cài microsoft word nên không chạy được trên linux.
 
 ** Hướng dẫn sử dụng:
 
