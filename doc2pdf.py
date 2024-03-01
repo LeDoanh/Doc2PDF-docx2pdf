@@ -1,7 +1,5 @@
 import sys
 import os
-# from spire.doc import *
-# from spire.doc.common import *
 from docx2pdf import convert
 
 def convertToPdf(PathIn, PathOut):
@@ -13,17 +11,6 @@ def convertToPdf(PathIn, PathOut):
     # Check if the output file exists, remove it if it does
     if os.path.exists(PathOut):
         os.remove(PathOut)
-    
-    # Spire.doc------------------------------------------------------------------------------
-    # # Create a Document object
-    # document = Document()
-    
-    # # Load a Word DOCX file from path
-    # document.LoadFromFile(PathIn)
-
-    # # Save the file to a PDF file
-    # document.SaveToFile(PathOut, FileFormat.PDF)
-    # document.Close()
     
     # Docx2Pdf-------------------------------------------------------------------------------
     # Convert the file to PDF using the docx2pdf library (https://pypi.org/project/docx2pdf/)
